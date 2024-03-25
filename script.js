@@ -5,8 +5,8 @@ function toggleMode() {
   const img = document.querySelector("#profile img");
 
   if (html.classList.contains("Light")) {
-    img.setAttribute("src", "./assets/assets/luh-light.png");
+    img.setAttribute("src", "./assets/assets/copas-light.png");
   } else {
-    img.setAttribute("src", "./assets/assets/luh.png");
+    img.setAttribute("src", "./assets/assets/copas-dark.png");
   }
 }
